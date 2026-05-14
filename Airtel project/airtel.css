@@ -1,0 +1,1317 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.topnav
+{
+    width: 100%;
+    height: 125px;
+    border: 1px solid grey;
+    background-color: white;
+    position: fixed;
+    /* position: sticky; */
+    z-index:1;
+    
+}
+.topnavcontainer
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid grey;
+}
+
+.topnavmenu
+{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+}
+.topnavdata
+{
+    width: 30%;
+    height: 50px;
+    
+}
+.topnavdata .web
+{
+    color: black;
+    border-top: 5px solid red;
+    padding-top: 10px;
+}
+.topnavdata a
+{
+    text-decoration: none;
+    color:black;
+    padding: 15px;
+    position: relative;
+    top: 15px;
+    
+}
+.topnavdata a:hover
+{
+    border-top: 5px solid red;
+    color: brown;
+    padding-top: 10px;
+    transition: 0.1s;
+    
+}
+.topnavexplore 
+{  
+   
+    margin-left: 50%;
+    padding-top:2px;
+    
+}
+
+.topnavexplore p
+{
+   
+    color: black;
+    padding: 10px 10px;
+    transition: 0.1s;
+}
+
+.topnavexplore:hover
+{
+    border-top: 5px solid red;
+    border-bottom: 1px solid grey;
+    background-color: rgb(244, 244, 244);
+    color: black;
+    transition: 0.1s;
+      
+}
+
+.expolist
+{
+    margin-top: 3px;
+    visibility: hidden;
+    /* position: relative; */
+    
+    
+}
+.topnavexplore:hover .expolist
+{
+    
+    visibility: visible;
+    transition: 0.1s;
+    /* position: absolute; */
+}
+
+ .navbarul
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+     list-style: none;
+    width: 200px;
+    height: 157px;
+    background-color: aliceblue;
+    /* visibility: hidden; */
+}
+
+  .navbarul .navlist
+{
+    padding: 10px 20px;
+    
+
+}
+
+.navbarul .navlist:hover 
+{   
+    font-weight: bold;
+    background-color: rgb(232, 229, 229);
+    color: black;
+    transition: 0.1s;
+    /* z-index: 1; */
+} 
+
+.navbar2
+{
+    width: 80%;
+    height: 68px;
+    margin: auto;
+    /* background-color: aqua; */
+    /* position: sticky; */
+    /* top: 10%; */
+}
+
+.navimg
+{
+     width: 104px;
+    height: 70px;
+    /* background-color: blue; */
+    margin-right: 3px;
+}
+ .navimg img
+{
+    width: 100%;
+} 
+
+.navcontent
+{
+    width: 91.5%;
+    height: 70px;
+    /* background-color: brown; */
+    float: right;
+    margin-top: -70px;
+     display: flex;
+    flex-direction: row;
+    font-size: small;
+   
+}
+.navcontent p
+{
+        text-align: center;
+         padding: 27px 4px; 
+}
+.navcontent p:hover
+{
+    border-top: 3px solid red;
+    transition: 0.1s;
+    font-weight: bold;
+    background-color: antiquewhite;
+} 
+
+.navmenu1
+{
+    width: 9%;
+    height: 70px;
+     
+}
+.navlist1
+{   
+    /* margin-top: 5px; */
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu1:hover .navlist1
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist1 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist1 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist1 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+
+.navmenu2
+{
+    width: 9%;
+    height: 70px;
+   
+} 
+.navlist2
+{   margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu2:hover .navlist2
+{
+    transition: 2s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist2 ul
+{   
+    list-style: none;
+    /* padding: 0% 0%; */
+    background-color: aliceblue;
+}
+.navlist2 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist2 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu3
+{
+    width: 9%;
+    height: 70px;
+    
+} 
+.navlist3
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu3:hover .navlist3
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist3 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist3 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist3 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu4
+{
+    width: 9%;
+    height: 70px;
+       
+} 
+.navlist4
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu4:hover .navlist4
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist4 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist4 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist4 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu5
+{
+    width: 9%;
+    height: 70px;
+     
+} 
+.navlist5
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu5:hover .navlist5
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist5 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist5 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist5 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu6
+{
+    width: 9%;
+    height: 70px;
+      
+} 
+.navlist6
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu6:hover .navlist6
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+}
+.navlist6 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist6 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist6 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu7
+{
+    width: 9%;
+    height: 70px;
+      
+} 
+.navlist7
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu7:hover .navlist7
+{
+    transition: 0.1s;
+    visibility: visible;
+    position: absolute;
+
+    
+}
+.navlist7 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist7 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist7 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color:red;
+}
+.navmenu8
+{
+    width: 9%;
+    height: 70px;
+      
+} 
+.navlist8
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navcontent .navmenu8:hover .navlist8
+{
+    transition: 1s;
+    visibility: visible;
+    position: absolute;
+
+    
+}
+.navlist8 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist8 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist8 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navmenu9
+{
+    width: 9%;
+    height: 70px;
+    
+} 
+.navmenu10
+{
+    width: 9.5%;
+    height: 70px;
+      
+} 
+.navmenu11
+{
+    width: 10%;
+    height: 70px;
+} 
+.navlist11
+{
+    margin-top: 5px;
+    width: 200px;
+    height: 237px;
+     border: 1px solid grey;
+    border-radius: 5px;
+    visibility: hidden;
+    
+}
+.navcontent .navmenu11:hover .navlist11
+{
+    transition: 0.1s;
+    visibility: visible;
+    /* z-index: 1; */
+    position: relative;
+}
+.navlist11 ul
+{   
+    list-style: none;
+    padding: 0% 0%;
+    background-color: aliceblue;
+}
+.navlist11 li
+{  
+    
+    padding: 15px;
+    border: 1px solid grey;
+}
+.navlist11 li:hover
+{
+    background-color: antiquewhite;
+    transition: 0.1s;
+    font-weight: bold;
+    color: red;
+}
+.navfixed
+{
+    width: 100%;
+    height: 125px;
+    /* border: 1px solid grey; */
+    background-color: white;
+}
+
+.mainimg
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    /* padding-top: 125px; */
+    /* position: sticky; */
+    /* top: 10%; */
+   
+}
+.mainimg img
+{
+    width: 50%;
+    height: 400px; 
+    float: right;  
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+     /* background-image: url('images/mainimg.png'); */
+}
+.mainimg h1
+{
+    padding: 100px;
+    font-size: 50px;
+}
+.mainimg p
+{ margin-top: -90px;
+  padding: 10px 110px;
+}
+.mainimg a
+{
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    left: 13%;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+.mainimg a:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+}
+
+
+.connection
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(242, 245, 245);
+    border-bottom: 1px solid grey;
+}
+.connection h1
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.iconlist
+{
+    width:80%;
+    height: 150px;
+    margin: auto;
+    /* background-color: blue; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.symbol
+{
+    width: 130px;
+    height: 150px;
+    /* background-color: aquamarine; */
+}
+.iconimg
+{
+    width: 100%;
+    height: 90px;
+    /* background-color: brown; */
+}
+.iconimg img
+{
+    width: 40%;
+    background-color: rgb(247, 245, 245);
+    border-radius: 50px;
+    margin: 15px 37px;
+    padding: 5px;
+
+}
+.icontext p
+{
+    text-align: center;
+}
+
+.iconimg img:hover
+{
+    border: 1px solid grey;
+    transition: 0s;
+}
+
+.switchbox
+{
+    width: 40%;
+    height: 80px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.simimg
+{
+    width: 15%;
+    height: 80px;
+    /* background-color: aqua; */
+}
+.simimg img
+{
+    width: 70%;
+    margin: 8px 12px;
+}
+.switchbox h3
+{
+  margin: -65px 95px;
+  /* background-color: blue; */
+}
+.switchbox p
+{
+    margin: 70px 95px;
+    font-size: small;
+    /* background-color: blueviolet; */
+}
+.switchbox h4
+{
+    float: right;
+    /* background-color: bisque; */
+    margin: -108px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.billcontainer
+{
+    width: 100%;
+    height: 250px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+}
+.billcontainer h1
+{
+    /* background-color: aqua; */
+    text-align: center;
+}
+.billmenu 
+{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.billmenu .menu
+{
+    /* border: 1px solid grey; */
+    /* background-color: blueviolet; */
+    margin: 3% -20%;
+}
+.billmenu .menu p 
+{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: rgb(242, 245, 245);
+}
+.billmenu .menu p:hover 
+{
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.billcontainer input
+{   
+    width: 25%;
+    margin:0% 37% ;
+    padding: 15px 5px 15px 20px;
+    border-radius: 10px;
+    border:  1px solid grey;
+}
+.billcontainer input:hover
+{
+    border: 2px solid rgb(97, 95, 95);
+}
+.billcontainer h4
+{
+    background-color: black;
+    color: aliceblue;
+    width: 25%;
+    margin: 2% 37%;
+    padding: 15px 5px 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+}
+.billcontainer h4:hover
+{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+} 
+
+.getapp
+{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 232, 235);
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.offerimg
+{
+    width: 45px;
+    height: 45px;
+    margin-left: 35%;
+    background-color: aqua;
+}
+.offerimg img
+{
+    width: 100%;
+    height: 45px;
+}
+.getapp h5
+{
+    margin-top: 15px;
+}
+.getapp h4
+{
+    width: 80px;
+    height: 25px;
+    margin: 10px 7px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.recommand
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(242, 245, 249);
+    margin-top: 0px;
+}
+.recommand h1
+{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+.recommandbox
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 25px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boximg
+{
+    width: 37%;
+    height: 400px;
+    /* background-color: yellow; */
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    margin: 7px 7px;
+}
+.imgbox
+{
+    width:378px;
+    height: 200px;
+    /* background-color: yellowgreen; */
+}
+.imgbox img
+{
+    width: 100%;
+    height: 195px;
+    /* padding-top: 2px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boximg h4
+{
+    padding: 20px 25px;
+    color: grey;
+}
+
+.boximg h3
+{
+    padding: 0px 25px;
+}
+.boximg p
+{
+    padding: 7px 25px;
+    font-size: small;
+}
+.boximg button
+{
+    margin: 40px 25px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.boximg button:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
+.boximg a
+{
+    font-size: smaller;
+    font-weight: bold;
+    text-decoration: none;
+}
+.boximg a:hover
+{
+    border-bottom: 2px solid blue;
+}
+
+.wifiplans
+{
+    width: 100%;
+    height: 600px;
+}
+.wifiplans img
+{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.wifiplans h1
+{  
+    /* width: 100%; */
+    color: white;
+    position: relative;
+    top: 14%;
+    text-align: center;
+    /* left: 33.5%; */
+}
+
+.plan 
+{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    /* background-color: aliceblue; */
+    position: relative;
+    top: 17%;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     
+}
+.planbox1
+{
+    width: 380px;
+    height: 450px;
+    background-color: white;
+     border-radius: 10px;
+}
+.planbox2
+{
+    width: 380px;
+    height: 450px;
+    background-color: white;
+     border-radius: 10px;
+}
+.planbox3
+{
+     width: 380px;
+    height: 450px;
+    background-color: white;
+     border-radius: 10px;
+}
+.planbox1 h6
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.planbox1 h4
+{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 17px;
+    font-size: large;
+}
+.planbox1 p
+{
+    text-align: center;
+    font-size: small;
+}
+.planbox1 button
+{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin:15% 31%;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: rgb(242, 243, 243);
+    font-size: large;   
+}
+button.btn 
+{
+    background-color:black ;
+    color: aliceblue;
+}
+.planbox1 button:hover
+{
+  border: 3px solid black;
+}
+
+
+.planbox2 h6
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.planbox2 h4
+{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 17px;
+    font-size: large;
+}
+.planbox2 p
+{
+    text-align: center;
+    font-size: small;
+}
+.planbox2 button
+{
+     width: 190px;
+     display: flex;
+    flex-direction: column;
+    margin:10% 28% 1% 28%;
+    padding: 10px 25px;  
+    border-radius: 20px; 
+    background-color:  rgb(242, 243, 243);
+    font-size: medium;   
+}
+button.btn 
+{
+    background-color:black ;
+  border: 2px solid rgb(85, 83, 83);
+    color: aliceblue;
+}
+.planbox2 button:hover
+{
+  border: 3px solid black;
+}
+
+.planbox3 img
+{
+    width: 100px;
+    height: 100px;
+    margin: 50px 130px; 
+}
+
+.planbox3 h4
+{ 
+    /* background-color: aqua; */
+    font-size: large;
+    margin: 160px 50px;
+    text-align: center;
+}
+.planbox3 h1
+{ 
+    color: black;
+    /* background-color: aqua; */
+    font-size: large;
+    margin-top: -50%;
+    margin-left:-5%;
+    /* text-align: center; */
+    font-size: 30px;
+}
+.planbox3 p
+{
+    padding: 70px 120px;
+}
+
+.planbox3 button
+{
+    padding: 5PX 60PX;
+    margin-left: 85px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.planbox3 button:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.planbox3 a
+{
+   font-size: small;
+  position: relative;
+  top: 10px;
+  left: 125px;
+  text-decoration: none;
+}
+.planbox3 a:hover
+{
+    border-bottom: 2px solid blue;
+}
+
+.business
+{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(194, 218, 218);
+}
+.businessbox
+{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.businessbox h1
+{
+    padding-top: 50px;
+}
+.businessbox p
+{
+    padding-top: 15px;
+}
+.businessbox a
+{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.busbox 
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: brown; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boxes
+{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.boxes img
+{
+    width: 50px;
+}
+.boxes h3
+{
+    padding-left: 10px;
+    font-size: medium;
+}
+.boxes i
+{
+    color: blue;
+    font-size: small;
+}
+.boxes p
+{
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+
+
+.quickaccess
+{
+    width: 80%;
+    height: 570px;
+    /* background-color: aqua; */
+    margin:auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.accessbox
+{
+    width: 200px;
+    height: 600px;
+}
+.quickaccess h6
+{
+    padding: 20px;
+    font-size: medium;
+}
+.quickaccess ul
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.quickaccess li
+{
+    padding-bottom: 7px;
+    color: grey;
+}
+
+
+.babyfooter
+{
+    width: 80%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.baby
+{
+    width: 600px;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.babyimg
+{
+    width: 100px;
+    height: 100px;
+}
+.babyimg img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.babyp
+{
+    width: 300px;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.babyp p
+{
+    padding-top: 40px;
+}
+.babyp img
+{
+    width: 90px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.babyip
+{
+      width: 300px;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.babyip
+{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.babyip i
+{
+    font-size: large;
+    padding: 5px;
+}
+
+.footer
+
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(245, 251, 251);
+}
+.footermenu
+{
+    width: 80%;
+    height: 100px;
+    /* background-color: bisque; */
+    margin: auto;
+}
+.footermenu p
+{
+    padding-top: 25px;
+    color: gray;
+}
+
+.footermenu  .mini 
+{
+    font-size: small;
+}
+.footer i
+{
+    font-size: 50px;
+    color: rgb(82, 255, 82);
+    float: right;
+    margin-top: -5%;
+    margin-right: 50px;
+}
